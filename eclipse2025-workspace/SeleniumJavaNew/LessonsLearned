@@ -1,0 +1,15 @@
+
+Lessons learned:
+
+- How to transition Java application code to code having TestNG framework
+
+- remove main method
+- instead of big main method, divide the code in 3 parts,
+   1. Setup : Initializes browser
+   2. Data provider : Fetches the Excel data once
+   3. Test : Excutes the login logic for every row in the Excel 
+- remove manual for loop to read test data related with different test cases
+- use TestNG annotations to handle the lifecycle and data interation(for loop for reading the testdata) 
+- remove static : Why? The the variables are static, we can not run tests in parallel
+- use Dataprovider to replace the for loop : TestNG will run the loginTest as much required , mentioned in Excel
+-  
