@@ -53,7 +53,7 @@ public class BasicUtils {
 		try {
 				Workbook workbook = WorkbookFactory.create(fis); // Works for both .xls and .xlsx
 				Sheet sheet = workbook.getSheet(sheetName);
-				data = new String[sheet.getLastRowNum()][sheet.getRow(0).getLastCellNum()];
+				data = new String[sheet.getLastRowNum()-1][sheet.getRow(0).getLastCellNum()];
 				
 		        for(int i=0; i < sheet.getLastRowNum(); i++) {
 		        	for (int k=0; k< sheet.getRow(0).getLastCellNum(); k++) {
