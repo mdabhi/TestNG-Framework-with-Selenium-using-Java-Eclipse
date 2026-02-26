@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="5" passed="4" failed="1" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-02-25T15:49:41 EST" name="Default suite" finished-at="2026-02-25T15:50:48 EST" duration-ms="67436">
+  <suite started-at="2026-02-26T13:57:01 EST" name="Default suite" finished-at="2026-02-26T13:57:55 EST" duration-ms="54156">
     <groups>
     </groups>
-    <test started-at="2026-02-25T15:49:41 EST" name="Default test" finished-at="2026-02-25T15:50:48 EST" duration-ms="67436">
-      <class name="Tests.LoginTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:Tests.LoginTest@2f4948e4]" started-at="2026-02-25T15:49:43 EST" name="setUp" finished-at="2026-02-25T15:49:53 EST" duration-ms="10349" status="PASS">
+    <test started-at="2026-02-26T13:57:01 EST" name="Default test" finished-at="2026-02-26T13:57:55 EST" duration-ms="54156">
+      <class name="Tests.TestScript_05">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Tests.TestScript_05@2f4948e4]" started-at="2026-02-26T13:57:04 EST" name="setUp" finished-at="2026-02-26T13:57:14 EST" duration-ms="9858" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="LoginPage(java.lang.String,java.lang.String)[pri:0, instance:Tests.LoginTest@2f4948e4]" started-at="2026-02-25T15:49:53 EST" name="LoginPage" data-provider="MinitaTest" finished-at="2026-02-25T15:49:55 EST" duration-ms="1733" status="PASS">
+        <test-method signature="LoginPage(java.lang.String,java.lang.String)[pri:0, instance:Tests.TestScript_05@2f4948e4]" started-at="2026-02-26T13:57:14 EST" name="LoginPage" data-provider="Database1" finished-at="2026-02-26T13:57:15 EST" duration-ms="1514" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -27,15 +27,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginPage -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.LoginTest@2f4948e4]" started-at="2026-02-25T15:49:55 EST" name="tearDown" finished-at="2026-02-25T15:49:58 EST" duration-ms="2592" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.TestScript_05@2f4948e4]" started-at="2026-02-26T13:57:15 EST" name="tearDown" finished-at="2026-02-26T13:57:18 EST" duration-ms="3103" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:Tests.LoginTest@2f4948e4]" started-at="2026-02-25T15:49:58 EST" name="setUp" finished-at="2026-02-25T15:50:09 EST" duration-ms="11199" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Tests.TestScript_05@2f4948e4]" started-at="2026-02-26T13:57:18 EST" name="setUp" finished-at="2026-02-26T13:57:27 EST" duration-ms="9185" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="LoginPage(java.lang.String,java.lang.String)[pri:0, instance:Tests.LoginTest@2f4948e4]" started-at="2026-02-25T15:50:09 EST" name="LoginPage" data-provider="MinitaTest" finished-at="2026-02-25T15:50:10 EST" duration-ms="968" status="PASS">
+        <test-method signature="LoginPage(java.lang.String,java.lang.String)[pri:0, instance:Tests.TestScript_05@2f4948e4]" started-at="2026-02-26T13:57:27 EST" name="LoginPage" data-provider="Database1" finished-at="2026-02-26T13:57:28 EST" duration-ms="1043" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -51,15 +51,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginPage -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.LoginTest@2f4948e4]" started-at="2026-02-25T15:50:10 EST" name="tearDown" finished-at="2026-02-25T15:50:12 EST" duration-ms="2368" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.TestScript_05@2f4948e4]" started-at="2026-02-26T13:57:29 EST" name="tearDown" finished-at="2026-02-26T13:57:31 EST" duration-ms="2958" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:Tests.LoginTest@2f4948e4]" started-at="2026-02-25T15:50:12 EST" name="setUp" finished-at="2026-02-25T15:50:22 EST" duration-ms="9434" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Tests.TestScript_05@2f4948e4]" started-at="2026-02-26T13:57:31 EST" name="setUp" finished-at="2026-02-26T13:57:40 EST" duration-ms="8112" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="LoginPage(java.lang.String,java.lang.String)[pri:0, instance:Tests.LoginTest@2f4948e4]" started-at="2026-02-25T15:50:22 EST" name="LoginPage" data-provider="MinitaTest" finished-at="2026-02-25T15:50:23 EST" duration-ms="928" status="PASS">
+        <test-method signature="LoginPage(java.lang.String,java.lang.String)[pri:0, instance:Tests.TestScript_05@2f4948e4]" started-at="2026-02-26T13:57:40 EST" name="LoginPage" data-provider="Database1" finished-at="2026-02-26T13:57:41 EST" duration-ms="941" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -75,15 +75,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginPage -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.LoginTest@2f4948e4]" started-at="2026-02-25T15:50:23 EST" name="tearDown" finished-at="2026-02-25T15:50:25 EST" duration-ms="2662" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.TestScript_05@2f4948e4]" started-at="2026-02-26T13:57:41 EST" name="tearDown" finished-at="2026-02-26T13:57:43 EST" duration-ms="2797" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:Tests.LoginTest@2f4948e4]" started-at="2026-02-25T15:50:25 EST" name="setUp" finished-at="2026-02-25T15:50:34 EST" duration-ms="8649" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Tests.TestScript_05@2f4948e4]" started-at="2026-02-26T13:57:43 EST" name="setUp" finished-at="2026-02-26T13:57:52 EST" duration-ms="9048" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="LoginPage(java.lang.String,java.lang.String)[pri:0, instance:Tests.LoginTest@2f4948e4]" started-at="2026-02-25T15:50:34 EST" name="LoginPage" data-provider="MinitaTest" finished-at="2026-02-25T15:50:35 EST" duration-ms="948" status="PASS">
+        <test-method signature="LoginPage(java.lang.String,java.lang.String)[pri:0, instance:Tests.TestScript_05@2f4948e4]" started-at="2026-02-26T13:57:52 EST" name="LoginPage" data-provider="Database1" finished-at="2026-02-26T13:57:53 EST" duration-ms="900" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -99,85 +99,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginPage -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.LoginTest@2f4948e4]" started-at="2026-02-25T15:50:35 EST" name="tearDown" finished-at="2026-02-25T15:50:37 EST" duration-ms="2064" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.TestScript_05@2f4948e4]" started-at="2026-02-26T13:57:53 EST" name="tearDown" finished-at="2026-02-26T13:57:55 EST" duration-ms="2022" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:Tests.LoginTest@2f4948e4]" started-at="2026-02-25T15:50:37 EST" name="setUp" finished-at="2026-02-25T15:50:46 EST" duration-ms="8896" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="LoginPage(java.lang.String,java.lang.String)[pri:0, instance:Tests.LoginTest@2f4948e4]" started-at="2026-02-25T15:50:46 EST" name="LoginPage" data-provider="MinitaTest" finished-at="2026-02-25T15:50:48 EST" duration-ms="2184" status="FAIL">
-          <params>
-            <param index="0">
-              <value is-null="true"/>
-            </param>
-            <param index="1">
-              <value is-null="true"/>
-            </param>
-          </params>
-          <exception class="org.openqa.selenium.NoSuchSessionException">
-            <message>
-              <![CDATA[Session ID is null. Using WebDriver after calling quit()?
-Build info: version: '4.40.0', revision: 'b3333f1'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [null, findElement {using=name, value=uid}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 148.0, moz:accessibilityChecks: false, moz:buildID: 20260216153405, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 25368, moz:profile: C:\Users\t470\AppData\Local..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
-Build info: version: '4.40.0', revision: 'b3333f1'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [null, findElement {using=name, value=uid}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 148.0, moz:accessibilityChecks: false, moz:buildID: 20260216153405, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 25368, moz:profile: C:\Users\t470\AppData\Local..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:166)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:67)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:424)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:418)
-at Tests.LoginTest.LoginPage(LoginTest.java:119)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:744)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LoginPage -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.LoginTest@2f4948e4]" started-at="2026-02-25T15:50:48 EST" name="tearDown" finished-at="2026-02-25T15:50:48 EST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- Tests.LoginTest -->
+      </class> <!-- Tests.TestScript_05 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

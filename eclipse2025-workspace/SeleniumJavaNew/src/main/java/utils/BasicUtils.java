@@ -35,8 +35,11 @@ public class BasicUtils {
 //	public static final String pass = "amYtesu";
 	public static String VALID = "valid";
 	public static String INVALID = "invalid";
-
 	
+	public static final String PATTERN = ":";
+    public static final String FIRST_PATTERN = "mngr";
+    public static final String SECOND_PATTERN = "[0-9]+";
+    
 	public static String[][] getDataFromExcel(String filePath, String sheetName, 
 			String tableName) throws Exception {
         
