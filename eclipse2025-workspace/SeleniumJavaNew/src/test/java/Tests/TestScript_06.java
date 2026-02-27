@@ -1,14 +1,16 @@
 package Tests;
 
-/*Script for Day 5
+/*Script for Day 6
  */
 
 import static org.junit.Assert.assertEquals;
 import static org.testng.Assert.*;
 
+import java.io.File;
 import java.time.Duration;
 //import java.util.concurrent.TimeUnit;
 
+import org.apache.commons.io.FileUtils;
 //import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.*;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -31,7 +33,7 @@ import utils.BasicUtils;
  * Parameterization using TestNG
  * 
  */
-public class TestScript_05{
+public class TestScript_06{
 
 	private WebDriver driver; // Selenium control driver
 	private String baseUrl; // baseUrl of website Guru99
@@ -101,13 +103,15 @@ public class TestScript_05{
 	 * Expected:
 	 * A pop-up �User or Password is not valid� is shown
 	 * 	/**
-	 * Start Testing Test script 05 
+	 *
+	 * Start Testing Test script 06 
 	 * 1) Go to http://www.demo.guru99.com/V4/ 
 	 * 2) Enter valid UserId 
 	 * 3) Enter valid Password 
 	 * 4) Click Login Expected
 	 * result: Login successful home page shown Message shown Welcome
 	 * <managerid>
+	 * Take the screenshot of Manager Home Page and save it in your local machine with name as screenshot.png
 	 * @param username
 	 * @param password
 	 * @throws Exception
@@ -169,6 +173,11 @@ public class TestScript_05{
 			String remain = dynamicText.substring(dynamicText.length() - 4);
 			// Check remain string must be numbers;
 			assertTrue(remain.matches(BasicUtils.SECOND_PATTERN));
+			// Code to take Screenshot
+			File scrFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+			// Code to save screenshot at desired location
+			FileUtils.copyFile(scrFile, new File("C:\\Users\\t470\\eclipse2025-workspace\\SeleniumJavaNew\\test-output\\screenshot.png"));
+			
         } 
 	}
 
