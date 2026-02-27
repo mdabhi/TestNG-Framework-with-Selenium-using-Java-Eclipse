@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-02-27T10:57:22 EST" name="Default suite" finished-at="2026-02-27T10:58:32 EST" duration-ms="69675">
+  <suite started-at="2026-02-27T12:46:57 EST" name="Default suite" finished-at="2026-02-27T12:48:10 EST" duration-ms="73022">
     <groups>
     </groups>
-    <test started-at="2026-02-27T10:57:22 EST" name="Default test" finished-at="2026-02-27T10:58:32 EST" duration-ms="69675">
-      <class name="Tests.TestScript_05">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:Tests.TestScript_05@2f4948e4]" started-at="2026-02-27T10:57:25 EST" name="setUp" finished-at="2026-02-27T10:57:39 EST" duration-ms="13879" status="PASS">
+    <test started-at="2026-02-27T12:46:57 EST" name="Default test" finished-at="2026-02-27T12:48:10 EST" duration-ms="73022">
+      <class name="Tests.LoginTest_06">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Tests.LoginTest_06@2f4948e4]" started-at="2026-02-27T12:47:01 EST" name="setUp" finished-at="2026-02-27T12:47:15 EST" duration-ms="13762" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="LoginPage(java.lang.String,java.lang.String)[pri:0, instance:Tests.TestScript_05@2f4948e4]" started-at="2026-02-27T10:57:39 EST" name="LoginPage" data-provider="Database1" finished-at="2026-02-27T10:57:41 EST" duration-ms="2102" status="PASS">
+        <test-method signature="LoginPage(java.lang.String,java.lang.String)[pri:0, instance:Tests.LoginTest_06@2f4948e4]" started-at="2026-02-27T12:47:15 EST" name="LoginPage" data-provider="Database1" finished-at="2026-02-27T12:47:18 EST" duration-ms="2809" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -27,15 +27,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginPage -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.TestScript_05@2f4948e4]" started-at="2026-02-27T10:57:41 EST" name="tearDown" finished-at="2026-02-27T10:57:45 EST" duration-ms="3929" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.LoginTest_06@2f4948e4]" started-at="2026-02-27T12:47:18 EST" name="tearDown" finished-at="2026-02-27T12:47:22 EST" duration-ms="3841" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:Tests.TestScript_05@2f4948e4]" started-at="2026-02-27T10:57:45 EST" name="setUp" finished-at="2026-02-27T10:57:55 EST" duration-ms="9833" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Tests.LoginTest_06@2f4948e4]" started-at="2026-02-27T12:47:22 EST" name="setUp" finished-at="2026-02-27T12:47:36 EST" duration-ms="13905" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="LoginPage(java.lang.String,java.lang.String)[pri:0, instance:Tests.TestScript_05@2f4948e4]" started-at="2026-02-27T10:57:55 EST" name="LoginPage" data-provider="Database1" finished-at="2026-02-27T10:57:56 EST" duration-ms="1139" status="PASS">
+        <test-method signature="LoginPage(java.lang.String,java.lang.String)[pri:0, instance:Tests.LoginTest_06@2f4948e4]" started-at="2026-02-27T12:47:36 EST" name="LoginPage" data-provider="Database1" finished-at="2026-02-27T12:47:37 EST" duration-ms="1053" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -51,15 +51,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginPage -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.TestScript_05@2f4948e4]" started-at="2026-02-27T10:57:56 EST" name="tearDown" finished-at="2026-02-27T10:58:02 EST" duration-ms="6257" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.LoginTest_06@2f4948e4]" started-at="2026-02-27T12:47:37 EST" name="tearDown" finished-at="2026-02-27T12:47:40 EST" duration-ms="3299" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:Tests.TestScript_05@2f4948e4]" started-at="2026-02-27T10:58:02 EST" name="setUp" finished-at="2026-02-27T10:58:11 EST" duration-ms="9463" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Tests.LoginTest_06@2f4948e4]" started-at="2026-02-27T12:47:40 EST" name="setUp" finished-at="2026-02-27T12:47:49 EST" duration-ms="9395" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="LoginPage(java.lang.String,java.lang.String)[pri:0, instance:Tests.TestScript_05@2f4948e4]" started-at="2026-02-27T10:58:11 EST" name="LoginPage" data-provider="Database1" finished-at="2026-02-27T10:58:13 EST" duration-ms="1036" status="PASS">
+        <test-method signature="LoginPage(java.lang.String,java.lang.String)[pri:0, instance:Tests.LoginTest_06@2f4948e4]" started-at="2026-02-27T12:47:49 EST" name="LoginPage" data-provider="Database1" finished-at="2026-02-27T12:47:50 EST" duration-ms="1046" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -75,15 +75,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginPage -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.TestScript_05@2f4948e4]" started-at="2026-02-27T10:58:13 EST" name="tearDown" finished-at="2026-02-27T10:58:17 EST" duration-ms="4448" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.LoginTest_06@2f4948e4]" started-at="2026-02-27T12:47:50 EST" name="tearDown" finished-at="2026-02-27T12:47:55 EST" duration-ms="4541" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:Tests.TestScript_05@2f4948e4]" started-at="2026-02-27T10:58:17 EST" name="setUp" finished-at="2026-02-27T10:58:26 EST" duration-ms="9191" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Tests.LoginTest_06@2f4948e4]" started-at="2026-02-27T12:47:55 EST" name="setUp" finished-at="2026-02-27T12:48:06 EST" duration-ms="10870" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="LoginPage(java.lang.String,java.lang.String)[pri:0, instance:Tests.TestScript_05@2f4948e4]" started-at="2026-02-27T10:58:26 EST" name="LoginPage" data-provider="Database1" finished-at="2026-02-27T10:58:27 EST" duration-ms="1283" status="PASS">
+        <test-method signature="LoginPage(java.lang.String,java.lang.String)[pri:0, instance:Tests.LoginTest_06@2f4948e4]" started-at="2026-02-27T12:48:06 EST" name="LoginPage" data-provider="Database1" finished-at="2026-02-27T12:48:07 EST" duration-ms="1527" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -99,11 +99,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginPage -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.TestScript_05@2f4948e4]" started-at="2026-02-27T10:58:27 EST" name="tearDown" finished-at="2026-02-27T10:58:32 EST" duration-ms="4394" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.LoginTest_06@2f4948e4]" started-at="2026-02-27T12:48:07 EST" name="tearDown" finished-at="2026-02-27T12:48:10 EST" duration-ms="3164" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- Tests.TestScript_05 -->
+      </class> <!-- Tests.LoginTest_06 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
